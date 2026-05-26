@@ -1,0 +1,26 @@
+{
+  "name": "NoodTolk — Tolk voor noodsituaties",
+  "short_name": "NoodTolk",
+  "description": "Realtime tolk tussen melder en centralist voor 112 en andere hulpdiensten",
+  "start_url": "/noodtolk.html",
+  "display": "standalone",
+  "background_color": "#0b0b0f",
+  "theme_color": "#e8281c",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "medical"],
+  "lang": "nl"
+}

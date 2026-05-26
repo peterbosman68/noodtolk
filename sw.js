@@ -1,6 +1,6 @@
 const CACHE_NAME = 'noodtolk-v1';
 const ASSETS = [
-  '/noodtolk.html',
+  '/index.html',
   '/manifest.json'
 ];
 
@@ -48,7 +48,7 @@ self.addEventListener('fetch', (evt) => {
           caches.open(CACHE_NAME).then(cache => cache.put(evt.request, clone));
         }
         return response;
-      }).catch(() => caches.match('/noodtolk.html'));
+      }).catch(() => caches.match('/index.html'));
     })
   );
 });
